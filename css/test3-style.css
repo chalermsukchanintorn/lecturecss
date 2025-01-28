@@ -1,0 +1,19 @@
+/* Camel Case : stuFinalSAU */
+/* Pascal Case : StuFinalSAU */
+/* kebab-case : stu-final-sau */
+/* snake_case : stu_final_sau */
+
+
+/* SELECTOR{ PROPERTIES:VALUES } */
+h1{
+    text-align: right;
+    color: #3300ff;
+}
+
+p{
+    font-weight: bold;
+}
+
+h3{
+    color: red;
+}
