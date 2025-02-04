@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter {
+            font-size: 50px;
+            color: red;
+            background-color: yellow;
+        }
+        h2::before {
+            content: url(pic1.png);
+        }
+        h4::after , h2::after {
+            content: url(pic2.png);
+        }        
+    </style>
+</head>
+<body>
+    <h1>Welcome to SAU</h1>
+    <strong>SELECTOR แบบที่ 11 : Pseudo Element Selector</strong>
+    <!-- S ::pseudo-element การทำงานขึ้นอยู่กับ pseudo-element ที่เลือกใช้ -->
+    <h2>SAU IoT</h2>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, recusandae.
+    </p>
+    <h4>Wow wow wow</h4>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, recusandae.
+    </p>
+    
+</body>
+</html>
